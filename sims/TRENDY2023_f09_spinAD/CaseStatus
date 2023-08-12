@@ -1,0 +1,24 @@
+2023-08-12 08:57:51: xmlchange success <command> ./xmlchange CLM_ACCELERATED_SPINUP=on  </command>
+ ---------------------------------------------------
+2023-08-12 08:57:51: xmlchange success <command> ./xmlchange JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2023-08-12 08:57:52: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00  </command>
+ ---------------------------------------------------
+2023-08-12 08:57:52: xmlchange success <command> ./xmlchange PROJECT=P93300041  </command>
+ ---------------------------------------------------
+2023-08-12 08:57:52: xmlchange success <command> ./xmlchange RUN_STARTDATE=0000-01-01  </command>
+ ---------------------------------------------------
+2023-08-12 08:57:53: xmlchange success <command> ./xmlchange STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
+2023-08-12 08:57:53: xmlchange success <command> ./xmlchange STOP_N=40  </command>
+ ---------------------------------------------------
+2023-08-12 08:57:53: xmlchange success <command> ./xmlchange RESUBMIT=9  </command>
+ ---------------------------------------------------
+2023-08-12 08:57:54: xmlchange success <command> ./xmlchange DOUT_S=TRUE  </command>
+ ---------------------------------------------------
+2023-08-12 08:57:54: xmlchange success <command> ./xmlchange CLM_BLDNML_OPTS=-bgc bgc -crop -co2_ppmv 276.65  </command>
+ ---------------------------------------------------
+2023-08-12 08:57:54: case.setup starting 
+ ---------------------------------------------------
+2023-08-12 08:57:57: case.setup success 
+ ---------------------------------------------------
