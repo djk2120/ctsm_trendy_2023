@@ -1,24 +1,207 @@
-2023-08-12 08:57:51: xmlchange success <command> ./xmlchange CLM_ACCELERATED_SPINUP=on  </command>
+2023-08-12 09:02:24: xmlchange success <command> ./xmlchange CLM_ACCELERATED_SPINUP=on  </command>
  ---------------------------------------------------
-2023-08-12 08:57:51: xmlchange success <command> ./xmlchange JOB_QUEUE=regular  </command>
+2023-08-12 09:02:25: xmlchange success <command> ./xmlchange JOB_QUEUE=regular  </command>
  ---------------------------------------------------
-2023-08-12 08:57:52: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00  </command>
+2023-08-12 09:02:25: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00  </command>
  ---------------------------------------------------
-2023-08-12 08:57:52: xmlchange success <command> ./xmlchange PROJECT=P93300041  </command>
+2023-08-12 09:02:25: xmlchange success <command> ./xmlchange PROJECT=P93300041  </command>
  ---------------------------------------------------
-2023-08-12 08:57:52: xmlchange success <command> ./xmlchange RUN_STARTDATE=0000-01-01  </command>
+2023-08-12 09:02:26: xmlchange success <command> ./xmlchange RUN_STARTDATE=0000-01-01  </command>
  ---------------------------------------------------
-2023-08-12 08:57:53: xmlchange success <command> ./xmlchange STOP_OPTION=nyears  </command>
+2023-08-12 09:02:26: xmlchange success <command> ./xmlchange STOP_OPTION=nyears  </command>
  ---------------------------------------------------
-2023-08-12 08:57:53: xmlchange success <command> ./xmlchange STOP_N=40  </command>
+2023-08-12 09:02:26: xmlchange success <command> ./xmlchange STOP_N=40  </command>
  ---------------------------------------------------
-2023-08-12 08:57:53: xmlchange success <command> ./xmlchange RESUBMIT=9  </command>
+2023-08-12 09:02:26: xmlchange success <command> ./xmlchange RESUBMIT=9  </command>
  ---------------------------------------------------
-2023-08-12 08:57:54: xmlchange success <command> ./xmlchange DOUT_S=TRUE  </command>
+2023-08-12 09:02:27: xmlchange success <command> ./xmlchange DOUT_S=TRUE  </command>
  ---------------------------------------------------
-2023-08-12 08:57:54: xmlchange success <command> ./xmlchange CLM_BLDNML_OPTS=-bgc bgc -crop -co2_ppmv 276.65  </command>
+2023-08-12 09:02:27: xmlchange success <command> ./xmlchange CLM_BLDNML_OPTS=-bgc bgc -crop -co2_ppmv 276.59  </command>
  ---------------------------------------------------
-2023-08-12 08:57:54: case.setup starting 
+2023-08-12 09:02:27: case.setup starting 
  ---------------------------------------------------
-2023-08-12 08:57:57: case.setup success 
+2023-08-12 09:02:29: case.setup success 
+ ---------------------------------------------------
+2023-08-12 09:03:25: case.build starting 
+ ---------------------------------------------------
+CESM version is branch_tags/TRENDY-2019.n05_ctsm1.0.dev056
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : Externals_CISM.cfg
+Checking status of externals: clm, fates, ptclm, cism, source_cism, rtm, mosart, cime, 
+    ./cime
+        clean sandbox, on branch_tags/cime5.8.3_chint17-04
+    ./components/cism
+        clean sandbox, on cism2_1_68
+    ./components/cism/source_cism
+        clean sandbox, on 9f57475aadf2d807b97b9c20f53e6ddc6daf0dfb
+    ./components/mosart
+        clean sandbox, on mosart1_0_33
+    ./components/rtm
+        clean sandbox, on rtm1_0_68
+    ./src/fates
+        clean sandbox, on fates_s1.8.1_a3.0.0_rev2
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_180611
+2023-08-12 09:11:36: case.build success 
+ ---------------------------------------------------
+2023-08-12 09:13:26: case.submit starting 
+ ---------------------------------------------------
+2023-08-12 09:13:32: case.submit success case.run:2543429.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2543430.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-12 09:40:51: case.run starting 
+ ---------------------------------------------------
+2023-08-12 09:40:57: model execution starting 
+ ---------------------------------------------------
+2023-08-12 13:59:52: model execution success 
+ ---------------------------------------------------
+2023-08-12 13:59:52: case.run success 
+ ---------------------------------------------------
+2023-08-12 14:00:27: st_archive starting 
+ ---------------------------------------------------
+2023-08-12 14:00:32: st_archive success 
+ ---------------------------------------------------
+2023-08-12 14:00:32: case.submit starting 
+ ---------------------------------------------------
+2023-08-12 14:00:38: case.submit success case.run:2547767.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2547768.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-12 14:51:23: case.run starting 
+ ---------------------------------------------------
+2023-08-12 14:51:31: model execution starting 
+ ---------------------------------------------------
+2023-08-12 19:10:02: model execution success 
+ ---------------------------------------------------
+2023-08-12 19:10:03: case.run success 
+ ---------------------------------------------------
+2023-08-12 19:10:29: st_archive starting 
+ ---------------------------------------------------
+2023-08-12 19:10:34: st_archive success 
+ ---------------------------------------------------
+2023-08-12 19:10:34: case.submit starting 
+ ---------------------------------------------------
+2023-08-12 19:10:38: case.submit success case.run:2549271.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2549272.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-12 19:10:47: case.run starting 
+ ---------------------------------------------------
+2023-08-12 19:10:55: model execution starting 
+ ---------------------------------------------------
+2023-08-12 23:20:07: model execution success 
+ ---------------------------------------------------
+2023-08-12 23:20:07: case.run success 
+ ---------------------------------------------------
+2023-08-12 23:20:30: st_archive starting 
+ ---------------------------------------------------
+2023-08-12 23:20:35: st_archive success 
+ ---------------------------------------------------
+2023-08-12 23:20:35: case.submit starting 
+ ---------------------------------------------------
+2023-08-12 23:20:37: case.submit success case.run:2550481.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2550482.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-12 23:20:41: case.run starting 
+ ---------------------------------------------------
+2023-08-12 23:20:49: model execution starting 
+ ---------------------------------------------------
+2023-08-13 03:32:14: model execution success 
+ ---------------------------------------------------
+2023-08-13 03:32:14: case.run success 
+ ---------------------------------------------------
+2023-08-13 03:32:31: st_archive starting 
+ ---------------------------------------------------
+2023-08-13 03:32:36: st_archive success 
+ ---------------------------------------------------
+2023-08-13 03:32:36: case.submit starting 
+ ---------------------------------------------------
+2023-08-13 03:32:37: case.submit success case.run:2551925.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2551926.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-13 03:32:44: case.run starting 
+ ---------------------------------------------------
+2023-08-13 03:32:50: model execution starting 
+ ---------------------------------------------------
+2023-08-13 07:43:04: model execution success 
+ ---------------------------------------------------
+2023-08-13 07:43:04: case.run success 
+ ---------------------------------------------------
+2023-08-13 07:43:52: st_archive starting 
+ ---------------------------------------------------
+2023-08-13 07:43:57: st_archive success 
+ ---------------------------------------------------
+2023-08-13 07:43:57: case.submit starting 
+ ---------------------------------------------------
+2023-08-13 07:43:59: case.submit success case.run:2552928.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2552929.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-13 07:44:05: case.run starting 
+ ---------------------------------------------------
+2023-08-13 07:44:11: model execution starting 
+ ---------------------------------------------------
+2023-08-13 11:52:50: model execution success 
+ ---------------------------------------------------
+2023-08-13 11:52:50: case.run success 
+ ---------------------------------------------------
+2023-08-13 11:53:14: st_archive starting 
+ ---------------------------------------------------
+2023-08-13 11:53:20: st_archive success 
+ ---------------------------------------------------
+2023-08-13 11:53:20: case.submit starting 
+ ---------------------------------------------------
+2023-08-13 11:53:27: case.submit success case.run:2554372.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2554373.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-13 11:53:32: case.run starting 
+ ---------------------------------------------------
+2023-08-13 11:53:38: model execution starting 
+ ---------------------------------------------------
+2023-08-13 16:02:30: model execution success 
+ ---------------------------------------------------
+2023-08-13 16:02:30: case.run success 
+ ---------------------------------------------------
+2023-08-13 16:02:50: st_archive starting 
+ ---------------------------------------------------
+2023-08-13 16:02:54: st_archive success 
+ ---------------------------------------------------
+2023-08-13 16:02:54: case.submit starting 
+ ---------------------------------------------------
+2023-08-13 16:02:56: case.submit success case.run:2555829.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2555830.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-13 16:03:00: case.run starting 
+ ---------------------------------------------------
+2023-08-13 16:03:06: model execution starting 
+ ---------------------------------------------------
+2023-08-13 20:11:10: model execution success 
+ ---------------------------------------------------
+2023-08-13 20:11:10: case.run success 
+ ---------------------------------------------------
+2023-08-13 20:11:30: st_archive starting 
+ ---------------------------------------------------
+2023-08-13 20:11:35: st_archive success 
+ ---------------------------------------------------
+2023-08-13 20:11:35: case.submit starting 
+ ---------------------------------------------------
+2023-08-13 20:11:37: case.submit success case.run:2558730.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2558731.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-13 20:11:42: case.run starting 
+ ---------------------------------------------------
+2023-08-13 20:11:48: model execution starting 
+ ---------------------------------------------------
+2023-08-14 00:20:49: model execution success 
+ ---------------------------------------------------
+2023-08-14 00:20:49: case.run success 
+ ---------------------------------------------------
+2023-08-14 00:21:12: st_archive starting 
+ ---------------------------------------------------
+2023-08-14 00:21:16: st_archive success 
+ ---------------------------------------------------
+2023-08-14 00:21:16: case.submit starting 
+ ---------------------------------------------------
+2023-08-14 00:21:17: case.submit success case.run:2562150.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2562151.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-14 00:21:22: case.run starting 
+ ---------------------------------------------------
+2023-08-14 00:21:28: model execution starting 
+ ---------------------------------------------------
+2023-08-14 04:29:44: model execution success 
+ ---------------------------------------------------
+2023-08-14 04:29:44: case.run success 
+ ---------------------------------------------------
+2023-08-14 04:30:01: st_archive starting 
+ ---------------------------------------------------
+2023-08-14 04:30:05: st_archive success 
  ---------------------------------------------------

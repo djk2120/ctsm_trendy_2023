@@ -1,0 +1,2 @@
+./case.build
+./case.submit

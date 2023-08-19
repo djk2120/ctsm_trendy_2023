@@ -20,11 +20,10 @@ cd $caseroot
 ./xmlchange STOP_N=40
 ./xmlchange RESUBMIT=9
 ./xmlchange DOUT_S=TRUE
-./xmlchange CLM_BLDNML_OPTS="-bgc bgc -crop -co2_ppmv 276.65"
+./xmlchange CLM_BLDNML_OPTS="-bgc bgc -crop -co2_ppmv 276.59"
 
 ./case.setup
 cp $trendy'user_datm.streams/PI/user_datm.streams'* ./
 cp $trendy'namelists/spinAD/user_nl'* ./
 
-#./case.build
-#./case.submit
+

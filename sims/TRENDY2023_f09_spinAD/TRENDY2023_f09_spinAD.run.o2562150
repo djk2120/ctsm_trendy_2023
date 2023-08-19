@@ -1,0 +1,34 @@
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_spinAD
+Creating component namelists
+  2023-08-14 00:21:23 atm
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/data_comps/datm/cime_config/buildnml
+  2023-08-14 00:21:23 lnd
+   Calling /glade/work/djk2120/trendy2022/cime_config/buildnml
+  2023-08-14 00:21:23 ice
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/sice/cime_config/buildnml
+  2023-08-14 00:21:23 ocn
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/socn/cime_config/buildnml
+  2023-08-14 00:21:23 rof
+   Calling /glade/work/djk2120/trendy2022/components/mosart//cime_config/buildnml
+  2023-08-14 00:21:24 glc
+   Running /glade/work/djk2120/trendy2022/components/cism//cime_config/buildnml 
+  2023-08-14 00:21:27 wav
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/swav/cime_config/buildnml
+  2023-08-14 00:21:27 iac
+   Running /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/siac/cime_config/buildnml 
+  2023-08-14 00:21:27 esp
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/sesp/cime_config/buildnml
+  2023-08-14 00:21:27 cpl
+   Calling /glade/work/djk2120/trendy2022/cime/src/drivers/mct/cime_config/buildnml
+Finished creating component namelists
+-------------------------------------------------------------------------
+ - Prestage required restarts into /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run
+ - Case input data directory (DIN_LOC_ROOT) is /glade/p/cesmdata/cseg/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpiexec_mpt -p "%g:"  -np 1836  omplace -tm open64  /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach cheyenne 
+resubmit_num 0

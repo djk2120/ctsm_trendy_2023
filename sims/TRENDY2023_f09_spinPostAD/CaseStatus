@@ -1,0 +1,137 @@
+2023-08-14 08:24:53: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:53: xmlchange success <command> ./xmlchange RUN_REFCASE=TRENDY2023_f09_spinAD  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:53: xmlchange success <command> ./xmlchange RUN_REFDIR=/glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0400-01-01-00000  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:54: xmlchange success <command> ./xmlchange RUN_REFDATE=0400-01-01  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:54: xmlchange success <command> ./xmlchange GET_REFCASE=TRUE  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:54: xmlchange success <command> ./xmlchange NTASKS_CPL=2520  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:55: xmlchange success <command> ./xmlchange NTASKS_LND=2520  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:55: xmlchange success <command> ./xmlchange NTASKS_ICE=2520  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:55: xmlchange success <command> ./xmlchange NTASKS_OCN=2520  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:56: xmlchange success <command> ./xmlchange NTASKS_ROF=2520  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:56: xmlchange success <command> ./xmlchange NTASKS_GLC=2520  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:56: xmlchange success <command> ./xmlchange NTASKS_WAV=2520  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:57: xmlchange success <command> ./xmlchange JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:57: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:57: xmlchange success <command> ./xmlchange RUN_STARTDATE=0000-01-01  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:58: xmlchange success <command> ./xmlchange STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:58: xmlchange success <command> ./xmlchange STOP_N=100  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:59: xmlchange success <command> ./xmlchange RESUBMIT=9  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:59: xmlchange success <command> ./xmlchange DOUT_S=TRUE  </command>
+ ---------------------------------------------------
+2023-08-14 08:24:59: xmlchange success <command> ./xmlchange CLM_BLDNML_OPTS=-bgc bgc -crop -co2_ppmv 276.59  </command>
+ ---------------------------------------------------
+2023-08-14 08:25:00: case.setup starting 
+ ---------------------------------------------------
+2023-08-14 08:25:01: case.setup success 
+ ---------------------------------------------------
+2023-08-14 09:26:36: case.build starting 
+ ---------------------------------------------------
+CESM version is branch_tags/TRENDY-2019.n05_ctsm1.0.dev056
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : Externals_CISM.cfg
+Checking status of externals: clm, fates, ptclm, cism, source_cism, rtm, mosart, cime, 
+    ./cime
+        clean sandbox, on branch_tags/cime5.8.3_chint17-04
+    ./components/cism
+        clean sandbox, on cism2_1_68
+    ./components/cism/source_cism
+        clean sandbox, on 9f57475aadf2d807b97b9c20f53e6ddc6daf0dfb
+    ./components/mosart
+        clean sandbox, on mosart1_0_33
+    ./components/rtm
+        clean sandbox, on rtm1_0_68
+    ./src/fates
+        clean sandbox, on fates_s1.8.1_a3.0.0_rev2
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_180611
+2023-08-14 09:34:37: case.build success 
+ ---------------------------------------------------
+2023-08-14 09:35:25: case.submit starting 
+ ---------------------------------------------------
+2023-08-14 09:36:58: case.submit success case.run:2570533.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2570542.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-14 09:42:31: case.run starting 
+ ---------------------------------------------------
+2023-08-14 09:42:37: model execution starting 
+ ---------------------------------------------------
+2023-08-14 17:34:04: model execution success 
+ ---------------------------------------------------
+2023-08-14 17:34:05: case.run success 
+ ---------------------------------------------------
+2023-08-14 17:46:14: st_archive starting 
+ ---------------------------------------------------
+2023-08-14 17:46:20: st_archive success 
+ ---------------------------------------------------
+2023-08-14 17:46:20: case.submit starting 
+ ---------------------------------------------------
+2023-08-14 17:49:14: case.submit success case.run:2584855.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2584856.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-14 18:06:52: case.run starting 
+ ---------------------------------------------------
+2023-08-14 18:06:59: model execution starting 
+ ---------------------------------------------------
+2023-08-15 01:53:30: model execution success 
+ ---------------------------------------------------
+2023-08-15 01:53:31: case.run success 
+ ---------------------------------------------------
+2023-08-15 01:54:17: st_archive starting 
+ ---------------------------------------------------
+2023-08-15 01:54:25: st_archive success 
+ ---------------------------------------------------
+2023-08-15 01:54:25: case.submit starting 
+ ---------------------------------------------------
+2023-08-15 01:54:28: case.submit success case.run:2592321.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2592323.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-15 03:41:01: case.run starting 
+ ---------------------------------------------------
+2023-08-15 03:41:09: model execution starting 
+ ---------------------------------------------------
+2023-08-15 11:40:56: model execution success 
+ ---------------------------------------------------
+2023-08-15 11:40:56: case.run success 
+ ---------------------------------------------------
+2023-08-15 11:41:54: st_archive starting 
+ ---------------------------------------------------
+2023-08-15 11:42:01: st_archive success 
+ ---------------------------------------------------
+2023-08-15 11:42:01: case.submit starting 
+ ---------------------------------------------------
+2023-08-15 11:42:50: case.submit success case.run:2599587.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2599599.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-15 17:54:31: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
+ ---------------------------------------------------
+2023-08-15 17:54:36: case.submit starting 
+ ---------------------------------------------------
+2023-08-15 17:54:48: case.submit success case.run:2602826.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2602827.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-15 18:01:17: case.run starting 
+ ---------------------------------------------------
+2023-08-15 18:01:36: model execution starting 
+ ---------------------------------------------------
+2023-08-16 01:56:40: model execution success 
+ ---------------------------------------------------
+2023-08-16 01:56:41: case.run success 
+ ---------------------------------------------------
+2023-08-16 01:57:14: st_archive starting 
+ ---------------------------------------------------
+2023-08-16 01:57:22: st_archive success 
+ ---------------------------------------------------

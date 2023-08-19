@@ -1,0 +1,594 @@
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+st_archive starting
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/cpl.log.2554372.chadmin1.ib0.cheyenne.ucar.edu.230813-115332.gz to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/logs/cpl.log.2554372.chadmin1.ib0.cheyenne.ucar.edu.230813-115332.gz
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/cesm.log.2554372.chadmin1.ib0.cheyenne.ucar.edu.230813-115332.gz to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/logs/cesm.log.2554372.chadmin1.ib0.cheyenne.ucar.edu.230813-115332.gz
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/rof.log.2554372.chadmin1.ib0.cheyenne.ucar.edu.230813-115332.gz to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/logs/rof.log.2554372.chadmin1.ib0.cheyenne.ucar.edu.230813-115332.gz
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/lnd.log.2554372.chadmin1.ib0.cheyenne.ucar.edu.230813-115332.gz to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/logs/lnd.log.2554372.chadmin1.ib0.cheyenne.ucar.edu.230813-115332.gz
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/glc.log.2554372.chadmin1.ib0.cheyenne.ucar.edu.230813-115332.gz to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/logs/glc.log.2554372.chadmin1.ib0.cheyenne.ucar.edu.230813-115332.gz
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/atm.log.2554372.chadmin1.ib0.cheyenne.ucar.edu.230813-115332.gz to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/logs/atm.log.2554372.chadmin1.ib0.cheyenne.ucar.edu.230813-115332.gz
+-------------------------------------------
+Archiving restarts for date date(240, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for datm (atm)
+Archiving restarts for clm (lnd)
+removing interim restart file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.clm2.r.0240-01-01-00000.nc
+ WARNING: ncdump -v locfnh /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.clm2.rh0.0240-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: locfnh: No such variable
+removing interim restart file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.clm2.rh0.0240-01-01-00000.nc
+Archiving restarts for mosart (rof)
+removing interim restart file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.r.0240-01-01-00000.nc
+ WARNING: ncdump -v locfnh /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.rh0.0240-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: locfnh: No such variable
+removing interim restart file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.rh0.0240-01-01-00000.nc
+Archiving restarts for cism (glc)
+removing interim restart file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.r.0240-01-01-00000.nc
+Archiving restarts for drv (cpl)
+removing interim restart file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cpl.r.0240-01-01-00000.nc
+Archiving restarts for dart (esp)
+-------------------------------------------
+Archiving restarts for date date(280, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for datm (atm)
+Archiving restarts for clm (lnd)
+copying file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.clm2.r.0280-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0280-01-01-00000/TRENDY2023_f09_spinAD.clm2.r.0280-01-01-00000.nc
+Copying /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.clm2.h0.0280-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0280-01-01-00000/TRENDY2023_f09_spinAD.clm2.h0.0280-01-01-00000.nc
+ WARNING: ncdump -v locfnh /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.clm2.rh0.0280-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: locfnh: No such variable
+copying file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.clm2.rh0.0280-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0280-01-01-00000/TRENDY2023_f09_spinAD.clm2.rh0.0280-01-01-00000.nc
+Archiving restarts for mosart (rof)
+copying file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.r.0280-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0280-01-01-00000/TRENDY2023_f09_spinAD.mosart.r.0280-01-01-00000.nc
+Copying /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0279-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0280-01-01-00000/TRENDY2023_f09_spinAD.mosart.h0.0279-12.nc
+ WARNING: ncdump -v locfnh /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.rh0.0280-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: locfnh: No such variable
+copying file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.rh0.0280-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0280-01-01-00000/TRENDY2023_f09_spinAD.mosart.rh0.0280-01-01-00000.nc
+Archiving restarts for cism (glc)
+copying file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.r.0280-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0280-01-01-00000/TRENDY2023_f09_spinAD.cism.r.0280-01-01-00000.nc
+Archiving restarts for drv (cpl)
+copying file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cpl.r.0280-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0280-01-01-00000/TRENDY2023_f09_spinAD.cpl.r.0280-01-01-00000.nc
+Archiving restarts for dart (esp)
+Archiving history files for datm (atm)
+Archiving history files for clm (lnd)
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.clm2.h0.0260-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/lnd/hist/TRENDY2023_f09_spinAD.clm2.h0.0260-01-01-00000.nc 
+copying /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.clm2.h0.0280-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/lnd/hist/TRENDY2023_f09_spinAD.clm2.h0.0280-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.clm2.h0.0240-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/lnd/hist/TRENDY2023_f09_spinAD.clm2.h0.0240-01-01-00000.nc 
+Archiving history files for mosart (rof)
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0259-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0259-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0257-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0257-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0265-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0265-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0266-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0266-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0258-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0258-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0262-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0262-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0256-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0256-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0245-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0245-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0269-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0269-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0241-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0241-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0275-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0275-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0270-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0270-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0253-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0253-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0277-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0277-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0274-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0274-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0263-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0263-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0253-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0253-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0251-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0251-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0246-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0246-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0275-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0275-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0253-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0253-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0256-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0256-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0252-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0252-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0247-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0247-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0269-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0269-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0250-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0250-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0246-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0246-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0273-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0273-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0251-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0251-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0267-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0267-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0265-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0265-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0254-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0254-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0250-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0250-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0276-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0276-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0279-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0279-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0273-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0273-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0275-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0275-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0258-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0258-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0254-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0254-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0266-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0266-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0267-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0267-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0267-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0267-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0245-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0245-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0255-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0255-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0262-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0262-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0251-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0251-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0276-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0276-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0242-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0242-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0256-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0256-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0245-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0245-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0244-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0244-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0263-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0263-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0264-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0264-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0274-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0274-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0256-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0256-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0259-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0259-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0269-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0269-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0266-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0266-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0248-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0248-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0259-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0259-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0274-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0274-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0247-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0247-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0266-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0266-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0252-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0252-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0245-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0245-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0264-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0264-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0243-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0243-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0268-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0268-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0240-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0240-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0251-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0251-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0262-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0262-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0277-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0277-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0261-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0261-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0254-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0254-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0253-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0253-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0240-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0240-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0267-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0267-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0279-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0279-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0251-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0251-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0252-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0252-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0261-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0261-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0276-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0276-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0274-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0274-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0278-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0278-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0252-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0252-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0277-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0277-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0264-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0264-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0278-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0278-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0277-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0277-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0244-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0244-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0241-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0241-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0261-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0261-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0254-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0254-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0250-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0250-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0277-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0277-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0269-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0269-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0275-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0275-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0254-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0254-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0279-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0279-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0256-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0256-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0248-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0248-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0259-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0259-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0240-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0240-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0252-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0252-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0248-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0248-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0252-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0252-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0250-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0250-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0270-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0270-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0269-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0269-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0258-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0258-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0271-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0271-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0242-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0242-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0255-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0255-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0274-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0274-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0277-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0277-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0250-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0250-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0243-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0243-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0247-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0247-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0279-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0279-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0246-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0246-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0260-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0260-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0254-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0254-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0270-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0270-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0269-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0269-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0253-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0253-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0244-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0244-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0240-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0240-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0262-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0262-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0259-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0259-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0244-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0244-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0274-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0274-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0241-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0241-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0268-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0268-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0263-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0263-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0272-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0272-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0258-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0258-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0271-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0271-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0251-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0251-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0279-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0279-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0278-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0278-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0244-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0244-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0257-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0257-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0257-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0257-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0248-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0248-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0275-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0275-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0271-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0271-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0270-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0270-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0265-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0265-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0242-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0242-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0247-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0247-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0270-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0270-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0257-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0257-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0246-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0246-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0241-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0241-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0275-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0275-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0254-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0254-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0273-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0273-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0272-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0272-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0279-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0279-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0258-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0258-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0271-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0271-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0270-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0270-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0265-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0265-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0247-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0247-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0246-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0246-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0274-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0274-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0278-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0278-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0257-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0257-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0241-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0241-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0264-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0264-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0244-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0244-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0244-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0244-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0242-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0242-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0269-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0269-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0244-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0244-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0258-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0258-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0245-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0245-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0250-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0250-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0258-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0258-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0251-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0251-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0261-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0261-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0266-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0266-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0249-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0249-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0248-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0248-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0259-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0259-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0267-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0267-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0250-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0250-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0251-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0251-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0265-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0265-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0250-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0250-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0274-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0274-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0272-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0272-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0247-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0247-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0255-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0255-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0256-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0256-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0258-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0258-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0244-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0244-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0263-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0263-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0268-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0268-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0259-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0259-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0263-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0263-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0268-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0268-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0278-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0278-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0256-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0256-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0246-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0246-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0259-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0259-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0277-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0277-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0272-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0272-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0240-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0240-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0255-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0255-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0262-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0262-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0270-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0270-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0258-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0258-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0251-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0251-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0264-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0264-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0265-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0265-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0275-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0275-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0254-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0254-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0275-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0275-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0261-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0261-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0275-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0275-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0263-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0263-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0245-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0245-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0279-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0279-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0268-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0268-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0257-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0257-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0247-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0247-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0273-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0273-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0260-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0260-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0249-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0249-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0249-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0249-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0260-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0260-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0277-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0277-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0247-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0247-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0244-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0244-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0240-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0240-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0264-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0264-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0261-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0261-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0242-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0242-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0271-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0271-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0246-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0246-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0258-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0258-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0270-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0270-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0272-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0272-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0279-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0279-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0244-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0244-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0269-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0269-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0241-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0241-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0254-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0254-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0273-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0273-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0257-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0257-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0255-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0255-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0266-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0266-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0260-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0260-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0278-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0278-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0248-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0248-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0249-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0249-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0276-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0276-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0273-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0273-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0263-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0263-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0267-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0267-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0250-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0250-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0259-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0259-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0248-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0248-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0278-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0278-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0260-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0260-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0260-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0260-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0246-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0246-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0275-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0275-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0251-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0251-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0279-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0279-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0273-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0273-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0265-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0265-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0271-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0271-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0242-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0242-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0272-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0272-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0273-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0273-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0265-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0265-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0259-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0259-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0243-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0243-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0266-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0266-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0244-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0244-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0261-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0261-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0242-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0242-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0255-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0255-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0254-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0254-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0252-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0252-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0279-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0279-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0268-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0268-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0253-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0253-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0246-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0246-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0258-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0258-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0249-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0249-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0245-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0245-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0265-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0265-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0277-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0277-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0271-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0271-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0268-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0268-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0270-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0270-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0278-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0278-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0257-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0257-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0248-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0248-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0253-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0253-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0272-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0272-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0250-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0250-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0248-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0248-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0267-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0267-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0247-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0247-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0248-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0248-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0245-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0245-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0278-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0278-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0252-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0252-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0260-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0260-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0253-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0253-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0277-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0277-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0249-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0249-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0247-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0247-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0243-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0243-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0241-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0241-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0255-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0255-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0260-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0260-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0262-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0262-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0268-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0268-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0276-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0276-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0247-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0247-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0269-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0269-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0251-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0251-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0257-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0257-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0249-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0249-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0272-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0272-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0256-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0256-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0257-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0257-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0264-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0264-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0264-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0264-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0273-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0273-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0250-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0250-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0262-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0262-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0252-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0252-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0270-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0270-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0241-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0241-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0260-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0260-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0261-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0261-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0246-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0246-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0263-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0263-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0262-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0262-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0247-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0247-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0269-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0269-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0240-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0240-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0270-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0270-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0273-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0273-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0276-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0276-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0243-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0243-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0271-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0271-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0240-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0240-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0249-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0249-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0246-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0246-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0240-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0240-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0272-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0272-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0242-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0242-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0269-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0269-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0257-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0257-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0268-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0268-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0255-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0255-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0249-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0249-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0277-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0277-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0273-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0273-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0261-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0261-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0263-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0263-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0255-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0255-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0274-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0274-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0276-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0276-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0269-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0269-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0267-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0267-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0249-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0249-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0266-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0266-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0242-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0242-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0262-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0262-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0270-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0270-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0267-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0267-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0276-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0276-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0278-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0278-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0252-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0252-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0248-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0248-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0271-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0271-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0249-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0249-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0268-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0268-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0266-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0266-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0259-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0259-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0258-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0258-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0253-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0253-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0268-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0268-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0267-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0267-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0241-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0241-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0243-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0243-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0250-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0250-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0259-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0259-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0261-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0261-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0241-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0241-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0245-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0245-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0260-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0260-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0245-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0245-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0265-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0265-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0274-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0274-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0276-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0276-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0255-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0255-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0255-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0255-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0265-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0265-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0256-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0256-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0243-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0243-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0263-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0263-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0240-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0240-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0267-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0267-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0278-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0278-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0243-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0243-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0242-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0242-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0256-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0256-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0253-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0253-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0264-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0264-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0262-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0262-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0264-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0264-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0265-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0265-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0245-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0245-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0254-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0254-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0240-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0240-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0267-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0267-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0260-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0260-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0263-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0263-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0252-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0252-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0275-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0275-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0277-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0277-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0262-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0262-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0274-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0274-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0248-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0248-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0263-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0263-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0257-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0257-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0253-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0253-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0256-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0256-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0273-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0273-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0272-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0272-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0254-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0254-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0271-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0271-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0261-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0261-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0243-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0243-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0252-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0252-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0276-07.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0276-07.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0240-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0240-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0256-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0256-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0239-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0239-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0261-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0261-03.nc 
+copying /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0279-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0279-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0253-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0253-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0241-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0241-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0251-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0251-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0278-04.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0278-04.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0249-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0249-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0243-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0243-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0264-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0264-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0242-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0242-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0276-01.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0276-01.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0264-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0264-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0255-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0255-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0260-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0260-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0242-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0242-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0241-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0241-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0272-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0272-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0266-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0266-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0246-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0246-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0271-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0271-05.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0245-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0245-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0274-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0274-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0266-11.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0266-11.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0243-03.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0243-03.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0268-02.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0268-02.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0276-09.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0276-09.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0243-08.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0243-08.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0275-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0275-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0262-10.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0262-10.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0266-12.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0266-12.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0279-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0279-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0271-06.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0271-06.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.mosart.h0.0272-05.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rof/hist/TRENDY2023_f09_spinAD.mosart.h0.0272-05.nc 
+Archiving history files for cism (glc)
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0262-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0262-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0280-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0280-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0278-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0278-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0270-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0270-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0267-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0267-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0250-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0250-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0273-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0273-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0269-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0269-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0261-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0261-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0254-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0254-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0259-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0259-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0260-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0260-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0257-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0257-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0272-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0272-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0252-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0252-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0265-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0265-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0275-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0275-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0268-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0268-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0263-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0263-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0255-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0255-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0253-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0253-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0242-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0242-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0251-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0251-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0241-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0241-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0245-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0245-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0277-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0277-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0243-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0243-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0244-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0244-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0246-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0246-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0249-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0249-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0279-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0279-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0247-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0247-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0248-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0248-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0264-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0264-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0271-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0271-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0266-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0266-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0258-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0258-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0274-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0274-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0276-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0276-01-01-00000.nc 
+moving /glade/scratch/djk2120/TRENDY2023_f09_spinAD/run/TRENDY2023_f09_spinAD.cism.h.0256-01-01-00000.nc to /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/glc/hist/TRENDY2023_f09_spinAD.cism.h.0256-01-01-00000.nc 
+Archiving history files for drv (cpl)
+Archiving history files for dart (esp)
+st_archive completed
+resubmitting from st_archive, resubmit=3
+Submitting job 'case.run', resubmit=3
+submit_jobs case.run
+Submit job case.run
+Submitting job script qsub -q regular -l walltime=12:00:00 -A P93300041 -v ARGS_FOR_SCRIPT='--resubmit' .case.run
+Submitted job id is 2555829.chadmin1.ib0.cheyenne.ucar.edu
+Submit job case.st_archive
+Submitting job script qsub -q regular -l walltime=12:00:00 -A P93300041  -W depend=afterok:2555829.chadmin1.ib0.cheyenne.ucar.edu -v ARGS_FOR_SCRIPT='--resubmit' case.st_archive
+Submitted job id is 2555830.chadmin1.ib0.cheyenne.ucar.edu
+Submitted job case.run with id 2555829.chadmin1.ib0.cheyenne.ucar.edu
+Submitted job case.st_archive with id 2555830.chadmin1.ib0.cheyenne.ucar.edu

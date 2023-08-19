@@ -1,0 +1,76 @@
+Submitting command to PBS using account P08010000:
+    ./case.build
+
+Waiting for job 2543321.chadmin1.ib0.cheyenne.ucar.edu to start ... 
+
+
+Building case in directory /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_spinAD
+sharedlib_only is False
+model_only is False
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating component namelists as part of build
+Creating component namelists
+  2023-08-12 09:03:26 atm
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/data_comps/datm/cime_config/buildnml
+  2023-08-12 09:03:26 lnd
+   Calling /glade/work/djk2120/trendy2022/cime_config/buildnml
+  2023-08-12 09:03:27 ice
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/sice/cime_config/buildnml
+  2023-08-12 09:03:27 ocn
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/socn/cime_config/buildnml
+  2023-08-12 09:03:27 rof
+   Calling /glade/work/djk2120/trendy2022/components/mosart//cime_config/buildnml
+  2023-08-12 09:03:27 glc
+   Running /glade/work/djk2120/trendy2022/components/cism//cime_config/buildnml 
+  2023-08-12 09:03:31 wav
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/swav/cime_config/buildnml
+  2023-08-12 09:03:31 iac
+   Running /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/siac/cime_config/buildnml 
+  2023-08-12 09:03:31 esp
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/sesp/cime_config/buildnml
+  2023-08-12 09:03:31 cpl
+   Calling /glade/work/djk2120/trendy2022/cime/src/drivers/mct/cime_config/buildnml
+Finished creating component namelists
+Building gptl with output to file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/gptl.bldlog.230812-090325
+   Calling /glade/work/djk2120/trendy2022/cime/src/build_scripts/buildlib.gptl
+Building mct with output to file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/mct.bldlog.230812-090325
+   Calling /glade/work/djk2120/trendy2022/cime/src/build_scripts/buildlib.mct
+Building pio with output to file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/pio.bldlog.230812-090325
+   Calling /glade/work/djk2120/trendy2022/cime/src/build_scripts/buildlib.pio
+Component pio build complete with 2 warnings
+Building csm_share with output to file /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/csm_share.bldlog.230812-090325
+   Calling /glade/work/djk2120/trendy2022/cime/src/build_scripts/buildlib.csm_share
+Component csm_share build complete with 20 warnings
+         - Building clm library 
+Building lnd with output to /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/lnd.bldlog.230812-090325
+Component lnd build complete with 12 warnings
+clm built in 125.259858 seconds
+         - Building atm Library 
+Building atm with output to /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/atm.bldlog.230812-090325
+         - Building ice Library 
+Building ice with output to /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/ice.bldlog.230812-090325
+         - Building ocn Library 
+Building ocn with output to /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/ocn.bldlog.230812-090325
+         - Building rof Library 
+Building rof with output to /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/rof.bldlog.230812-090325
+         - Building glc Library 
+Building glc with output to /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/glc.bldlog.230812-090325
+         - Building wav Library 
+Building wav with output to /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/wav.bldlog.230812-090325
+         - Building iac Library 
+Building iac with output to /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/iac.bldlog.230812-090325
+         - Building esp Library 
+Building esp with output to /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/esp.bldlog.230812-090325
+sesp built in 1.188153 seconds
+socn built in 1.198403 seconds
+sice built in 1.272915 seconds
+swav built in 1.386606 seconds
+siac built in 1.517011 seconds
+datm built in 3.957821 seconds
+mosart built in 23.770796 seconds
+Component glc build complete with 3 warnings
+cism built in 200.335876 seconds
+Building cesm with output to /glade/scratch/djk2120/TRENDY2023_f09_spinAD/bld/cesm.bldlog.230812-090325 
+Time spent not building: 6.692288 sec
+Time spent building: 484.192484 sec
+MODEL BUILD HAS FINISHED SUCCESSFULLY

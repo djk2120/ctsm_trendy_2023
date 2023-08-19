@@ -1,0 +1,40 @@
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_spinPostAD
+ - Prestaging REFCASE (/glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0400-01-01-00000) to /glade/scratch/djk2120/TRENDY2023_f09_spinPostAD/run
+Copy rpointer /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0400-01-01-00000/rpointer.lnd
+Copy rpointer /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0400-01-01-00000/rpointer.rof
+Copy rpointer /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0400-01-01-00000/rpointer.atm
+Copy rpointer /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0400-01-01-00000/rpointer.glc
+Copy rpointer /glade/scratch/djk2120/archive/TRENDY2023_f09_spinAD/rest/0400-01-01-00000/rpointer.drv
+Creating component namelists
+  2023-08-14 09:42:32 atm
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/data_comps/datm/cime_config/buildnml
+  2023-08-14 09:42:32 lnd
+   Calling /glade/work/djk2120/trendy2022/cime_config/buildnml
+  2023-08-14 09:42:33 ice
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/sice/cime_config/buildnml
+  2023-08-14 09:42:33 ocn
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/socn/cime_config/buildnml
+  2023-08-14 09:42:33 rof
+   Calling /glade/work/djk2120/trendy2022/components/mosart//cime_config/buildnml
+  2023-08-14 09:42:33 glc
+   Running /glade/work/djk2120/trendy2022/components/cism//cime_config/buildnml 
+  2023-08-14 09:42:36 wav
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/swav/cime_config/buildnml
+  2023-08-14 09:42:36 iac
+   Running /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/siac/cime_config/buildnml 
+  2023-08-14 09:42:36 esp
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/sesp/cime_config/buildnml
+  2023-08-14 09:42:36 cpl
+   Calling /glade/work/djk2120/trendy2022/cime/src/drivers/mct/cime_config/buildnml
+Finished creating component namelists
+-------------------------------------------------------------------------
+ - Prestage required restarts into /glade/scratch/djk2120/TRENDY2023_f09_spinPostAD/run
+ - Case input data directory (DIN_LOC_ROOT) is /glade/p/cesmdata/cseg/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpiexec_mpt -p "%g:"  -np 2556  omplace -tm open64  /glade/scratch/djk2120/TRENDY2023_f09_spinPostAD/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach cheyenne 
+resubmit_num 9

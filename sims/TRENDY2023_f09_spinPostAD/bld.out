@@ -1,0 +1,8 @@
+Submitting command to PBS using account P08010000:
+    ./tmp.sh
+
+Waiting for job 2569750.chadmin1.ib0.cheyenne.ucar.edu to start ... 
+
+
+qsub: 2569750.chadmin1.ib0.cheyenne.ucar.edu Job to be deleted at request of djk2120@cheyenne4.ib0.cheyenne.ucar.edu
+Error: PBS could not successfully start job. Exiting...

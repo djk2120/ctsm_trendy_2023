@@ -24,14 +24,13 @@ fsurdat='/glade/p/cesmdata/cseg/inputdata/lnd/clm2/surfdata_map/ctsm5.1.dev052/s
 use_init_interp = .true.
 do_grossunrep=.false.
 reseed_dead_plants = .true.
-model_year_align_ndep   = 1850
-ndep_taxmode = 'cycle'
 
 !using ndep from previous trendy
 !ftp is still down....
 !need to doublecheck that PI ndep is a match
 stream_fldfilename_ndep = '/glade/scratch/djk2120/trendy2023/ndep/TRENDY2022_Ndep_Monthly_c220802.nc'
-
+model_year_align_ndep   = 1850
+ndep_taxmode = 'cycle'
 
 
 finidat='/glade/scratch/djk2120/restarts/TRENDY2022_f09_SpinPostAD.clm2.r.0600-01-01-00000.nc'

@@ -1,0 +1,13 @@
+&modelio
+  diri = "/glade/scratch/djk2120/TRENDY2023_f09_spinPostAD/bld/esp"
+  diro = "/glade/scratch/djk2120/TRENDY2023_f09_spinPostAD/run"
+  logfile = "esp.log.2602826.chadmin1.ib0.cheyenne.ucar.edu.230815-180117"
+/
+&pio_inparm
+  pio_netcdf_format = ""
+  pio_numiotasks = -99
+  pio_rearranger = -99
+  pio_root = -99
+  pio_stride = -99
+  pio_typename = "nothing"
+/
