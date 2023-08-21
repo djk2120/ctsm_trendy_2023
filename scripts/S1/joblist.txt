@@ -1,0 +1,2 @@
+TRENDY2023_f09_S1_part1,/glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1,none,submitted
+TRENDY2023_f09_S1_part2,/glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1,/glade/u/home/djk2120/ctsm_trendy_2023/scripts/S1/S1_part2.sh,queued

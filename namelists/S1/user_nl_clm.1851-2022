@@ -20,6 +20,20 @@
 !----------------------------------------------------------------------------------
 fsurdat='/glade/p/cesmdata/cseg/inputdata/lnd/clm2/surfdata_map/ctsm5.1.dev052/surfdata_0.9x1.25_hist_78pfts_CMIP6_simyr1700_c230809.nc'
 
+
+use_init_interp = .true.
+use_fertilizer = .false.
+
+!Turning off transient land use
+flanduse_timeseries = ' '
+do_grossunrep=.false.
+
+!Extra history files
+hist_mfilt = 1,1
+hist_nhtfrq = 0,0
+hist_fincl2 = 'TLAI','FCEV','FCTR','FGEV','FSH','GPP','HTOP','NBP','NPP','TOTVEGC','TV','QVEGE','QVEGT','QSOIL','GRAINC_TO_FOOD','AGNPP'
+hist_dov2xy = .true.,.false.
+
 !N deposition 
 model_year_align_ndep   = 1850
 stream_year_first_ndep = 1850
@@ -28,11 +42,10 @@ ndep_taxmode = 'cycle'
 ndep_varlist = 'NDEP_month'
 stream_fldfilename_ndep = '/glade/scratch/djk2120/trendy2023/ndep/TRENDY2022_Ndep_Monthly_PI.nc'
 
-use_init_interp = .true.
-use_fertilizer = .false.
-do_grossunrep=.false.
 
-hist_mfilt = 1,1
-hist_nhtfrq = 0,0
-hist_fincl2 = 'TLAI','FCEV','FCTR','FGEV','FSH','GPP','HTOP','NBP','NPP','TOTVEGC','TV','QVEGE','QVEGT','QSOIL','GRAINC_TO_FOOD','AGNPP'
-hist_dov2xy = .true.,.false.
+
+!Transient Population Density
+model_year_align_popdens = 1850
+stream_year_first_popdens = 1850
+stream_year_last_popdens = 2016
+
