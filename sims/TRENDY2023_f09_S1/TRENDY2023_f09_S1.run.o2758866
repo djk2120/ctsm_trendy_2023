@@ -1,0 +1,80 @@
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1
+Creating component namelists
+  2023-08-21 20:06:15 atm
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/data_comps/datm/cime_config/buildnml
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/user_datm.streams.txt.CLMCRUNCEPv7.Solar -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/datmconf/datm.streams.txt.CLMCRUNCEPv7.Solar
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/user_datm.streams.txt.CLMCRUNCEPv7.Precip -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/datmconf/datm.streams.txt.CLMCRUNCEPv7.Precip
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/user_datm.streams.txt.CLMCRUNCEPv7.TPQW -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/datmconf/datm.streams.txt.CLMCRUNCEPv7.TPQW
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/user_datm.streams.txt.co2tseries.20tr -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/datmconf/datm.streams.txt.co2tseries.20tr
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/datmconf/datm_in -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/datmconf/datm.streams.txt.presaero.trans_1850-2000 -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/datmconf/datm.streams.txt.CLMCRUNCEPv7.Solar -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/datmconf/datm.streams.txt.CLMCRUNCEPv7.Precip -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/datmconf/datm.streams.txt.co2tseries.20tr -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/datmconf/datm.streams.txt.topo.observed -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/datmconf/datm.streams.txt.CLMCRUNCEPv7.TPQW -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+  2023-08-21 20:06:16 lnd
+   Calling /glade/work/djk2120/trendy2022/cime_config/buildnml
+  2023-08-21 20:06:17 ice
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/sice/cime_config/buildnml
+  2023-08-21 20:06:17 ocn
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/socn/cime_config/buildnml
+  2023-08-21 20:06:17 rof
+   Calling /glade/work/djk2120/trendy2022/components/mosart//cime_config/buildnml
+  2023-08-21 20:06:17 glc
+   Running /glade/work/djk2120/trendy2022/components/cism//cime_config/buildnml 
+  2023-08-21 20:06:20 wav
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/swav/cime_config/buildnml
+  2023-08-21 20:06:20 iac
+   Running /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/siac/cime_config/buildnml 
+  2023-08-21 20:06:20 esp
+   Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/sesp/cime_config/buildnml
+  2023-08-21 20:06:20 cpl
+   Calling /glade/work/djk2120/trendy2022/cime/src/drivers/mct/cime_config/buildnml
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/cplconf/drv_in -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs/drv_flds_in -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/cplconf/seq_maps.rc -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/cplconf/glc_modelio.nml -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/cplconf/iac_modelio.nml -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/cplconf/ocn_modelio.nml -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/cplconf/esp_modelio.nml -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/cplconf/ice_modelio.nml -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/cplconf/wav_modelio.nml -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/cplconf/lnd_modelio.nml -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/cplconf/atm_modelio.nml -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/cplconf/rof_modelio.nml -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/Buildconf/cplconf/cpl_modelio.nml -> /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+Finished creating component namelists
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/glc_modelio.nml -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/iac_modelio.nml -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/ocn_modelio.nml -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/esp_modelio.nml -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/ice_modelio.nml -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/wav_modelio.nml -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/lnd_modelio.nml -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/atm_modelio.nml -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/rof_modelio.nml -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/cpl_modelio.nml -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/cism_in -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/drv_in -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/mosart_in -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/drv_flds_in -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/lnd_in -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/datm_in -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/datm.streams.txt.presaero.trans_1850-2000 -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/datm.streams.txt.CLMCRUNCEPv7.Solar -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/datm.streams.txt.CLMCRUNCEPv7.Precip -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/datm.streams.txt.co2tseries.20tr -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/datm.streams.txt.topo.observed -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/datm.streams.txt.CLMCRUNCEPv7.TPQW -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/seq_maps.rc -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/cism.config -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/CaseDocs
+-------------------------------------------------------------------------
+ - Prestage required restarts into /glade/scratch/djk2120/TRENDY2023_f09_S1/run
+ - Case input data directory (DIN_LOC_ROOT) is /glade/p/cesmdata/cseg/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpiexec_mpt -p "%g:"  -np 2556  omplace -tm open64  /glade/scratch/djk2120/TRENDY2023_f09_S1/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+copying /glade/scratch/djk2120/TRENDY2023_f09_S1/run/timing/model_timing_stats -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S1/timing/cesm_timing_stats.2758866.chadmin1.ib0.cheyenne.ucar.edu.230821-200614
+check for resubmit

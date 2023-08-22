@@ -33,18 +33,12 @@ model_year_align_ndep   = 1850
 
 stream_year_first_ndep = 1850
 
-stream_year_last_ndep = 1850 
+stream_year_last_ndep = 2099 
 
-ndep_taxmode = 'cycle'
+ndep_taxmode = 'extend'
 
 ndep_varlist = 'NDEP_month'
 
-stream_fldfilename_ndep = '/glade/scratch/djk2120/trendy2023/ndep/TRENDY2022_Ndep_Monthly_PI.nc'
-
-
-
-
-
-
+stream_fldfilename_ndep='/glade/scratch/djk2120/trendy2023/ndep/TRENDY2022_Ndep_Monthly_c220802.nc'
 
 / 

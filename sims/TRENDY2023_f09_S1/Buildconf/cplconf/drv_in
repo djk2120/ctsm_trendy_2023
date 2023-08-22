@@ -192,7 +192,7 @@
   scmlon = -999.
   shr_map_dopole = .true.
   single_column = .false.
-  start_type = "startup"
+  start_type = "continue"
   tchkpt_dir = "./timing/checkpoints"
   tfreeze_option = "mushy"
   timing_dir = "./timing"
@@ -251,13 +251,13 @@
   pause_active_wav = .false.
   pause_n = 0
   pause_option = "never"
-  restart_n = 75
+  restart_n = 86
   restart_option = "nyears"
   restart_ymd = -999
   rof_cpl_dt = 10800
   start_tod = 0
   start_ymd = 17010101
-  stop_n = 75
+  stop_n = 86
   stop_option = "nyears"
   stop_ymd = -999
   tprof_n = -999
