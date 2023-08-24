@@ -1,7 +1,7 @@
 &modelio
   diri = "/glade/scratch/djk2120/TRENDY2023_f09_S2/bld/wav"
   diro = "/glade/scratch/djk2120/TRENDY2023_f09_S2/run"
-  logfile = "wav.log.230824-094459"
+  logfile = "wav.log.230824-101603"
 /
 &pio_inparm
   pio_netcdf_format = "64bit_offset"

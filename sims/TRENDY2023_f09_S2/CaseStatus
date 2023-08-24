@@ -65,3 +65,11 @@ Checking status of externals: clm, fates, ptclm, cism, source_cism, rtm, mosart,
         clean sandbox, on PTCLM2_180611
 2023-08-24 09:53:02: case.build success 
  ---------------------------------------------------
+2023-08-24 10:10:24: case.submit starting 
+ ---------------------------------------------------
+2023-08-24 10:10:32: case.submit success case.run:2827923.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2827924.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-24 10:15:58: case.submit starting 
+ ---------------------------------------------------
+2023-08-24 10:16:08: case.submit success case.run:2828009.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2828011.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------

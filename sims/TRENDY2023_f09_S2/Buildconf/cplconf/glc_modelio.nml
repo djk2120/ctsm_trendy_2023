@@ -1,7 +1,7 @@
 &modelio
   diri = "/glade/scratch/djk2120/TRENDY2023_f09_S2/bld/glc"
   diro = "/glade/scratch/djk2120/TRENDY2023_f09_S2/run"
-  logfile = "glc.log.230824-094459"
+  logfile = "glc.log.230824-101603"
 /
 &pio_inparm
   pio_netcdf_format = "64bit_offset"

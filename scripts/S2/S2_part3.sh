@@ -1,9 +1,9 @@
 #!/bin/bash
 ## run the last bit (1901-2022)
 ## bring in transient climate
-casedir='/glade/u/home/djk2120/ctsm_trendy_2022/sims/'
+casedir='/glade/u/home/djk2120/ctsm_trendy_2023/sims/'
 exp='S2'
-casename='TRENDY2022_f09_'$exp
+casename='TRENDY2023_f09_'$exp
 caseroot=$casedir$casename
 
 cd $caseroot
