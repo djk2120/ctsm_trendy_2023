@@ -1,0 +1,39 @@
+&comp_inparm 
+
+finidat = 'TRENDY2023_f09_spinPostAD.clm2.r.0400-01-01-00000.nc'
+fsurdat='/glade/p/cesmdata/cseg/inputdata/lnd/clm2/surfdata_map/ctsm5.1.dev052/surfdata_0.9x1.25_hist_78pfts_CMIP6_simyr1700_c230809.nc'
+
+use_init_interp = .true.
+
+use_fertilizer = .false.
+
+
+
+flanduse_timeseries = ' '
+
+do_grossunrep=.false.
+
+
+
+hist_mfilt = 1,1
+
+hist_nhtfrq = 0,0
+
+hist_fincl2 = 'TLAI','FCEV','FCTR','FGEV','FSH','GPP','HTOP','NBP','NPP','TOTVEGC','TV','QVEGE','QVEGT','QSOIL','GRAINC_TO_FOOD','AGNPP'
+
+hist_dov2xy = .true.,.false.
+
+
+
+model_year_align_ndep   = 1850
+
+stream_year_first_ndep = 1850
+
+stream_year_last_ndep = 1850 
+
+ndep_taxmode = 'cycle'
+
+ndep_varlist = 'NDEP_month'
+
+stream_fldfilename_ndep = '/glade/scratch/djk2120/trendy2023/ndep/TRENDY2022_Ndep_Monthly_PI.nc'
+/ 

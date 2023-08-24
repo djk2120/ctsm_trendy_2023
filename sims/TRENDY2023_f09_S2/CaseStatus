@@ -1,0 +1,67 @@
+2023-08-24 09:44:49: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:50: xmlchange success <command> ./xmlchange RUN_REFCASE=TRENDY2023_f09_spinPostAD  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:50: xmlchange success <command> ./xmlchange RUN_REFDIR=/glade/scratch/djk2120/archive/TRENDY2023_f09_spinPostAD/rest/0400-01-01-00000  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:50: xmlchange success <command> ./xmlchange RUN_REFDATE=0400-01-01  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:51: xmlchange success <command> ./xmlchange GET_REFCASE=TRUE  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:51: xmlchange success <command> ./xmlchange NTASKS_CPL=2520  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:51: xmlchange success <command> ./xmlchange NTASKS_LND=2520  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:52: xmlchange success <command> ./xmlchange NTASKS_ICE=2520  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:52: xmlchange success <command> ./xmlchange NTASKS_OCN=2520  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:52: xmlchange success <command> ./xmlchange NTASKS_ROF=2520  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:53: xmlchange success <command> ./xmlchange NTASKS_GLC=2520  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:53: xmlchange success <command> ./xmlchange NTASKS_WAV=2520  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:53: xmlchange success <command> ./xmlchange JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:54: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:54: xmlchange success <command> ./xmlchange PROJECT=P93300041  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:55: xmlchange success <command> ./xmlchange RUN_STARTDATE=1701-01-01  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:55: xmlchange success <command> ./xmlchange STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:55: xmlchange success <command> ./xmlchange STOP_N=75  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:56: xmlchange success <command> ./xmlchange RESUBMIT=1  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:56: xmlchange success <command> ./xmlchange DOUT_S=TRUE  </command>
+ ---------------------------------------------------
+2023-08-24 09:44:56: case.setup starting 
+ ---------------------------------------------------
+2023-08-24 09:44:59: case.setup success 
+ ---------------------------------------------------
+2023-08-24 09:44:59: case.build starting 
+ ---------------------------------------------------
+CESM version is branch_tags/TRENDY-2019.n05_ctsm1.0.dev056
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : Externals_CISM.cfg
+Checking status of externals: clm, fates, ptclm, cism, source_cism, rtm, mosart, cime, 
+    ./cime
+        clean sandbox, on branch_tags/cime5.8.3_chint17-04
+    ./components/cism
+        clean sandbox, on cism2_1_68
+    ./components/cism/source_cism
+        clean sandbox, on 9f57475aadf2d807b97b9c20f53e6ddc6daf0dfb
+    ./components/mosart
+        clean sandbox, on mosart1_0_33
+    ./components/rtm
+        clean sandbox, on rtm1_0_68
+    ./src/fates
+        clean sandbox, on fates_s1.8.1_a3.0.0_rev2
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_180611
+2023-08-24 09:53:02: case.build success 
+ ---------------------------------------------------

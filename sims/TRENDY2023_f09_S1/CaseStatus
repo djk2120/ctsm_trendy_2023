@@ -115,3 +115,41 @@ Checking status of externals: clm, fates, ptclm, cism, source_cism, rtm, mosart,
  ---------------------------------------------------
 2023-08-22 09:22:32: model execution starting 
  ---------------------------------------------------
+2023-08-22 18:23:12: model execution success 
+ ---------------------------------------------------
+2023-08-22 18:23:13: case.run success 
+ ---------------------------------------------------
+2023-08-22 18:23:51: st_archive starting 
+ ---------------------------------------------------
+2023-08-22 18:24:02: st_archive success 
+ ---------------------------------------------------
+2023-08-22 18:24:02: case.submit starting 
+ ---------------------------------------------------
+2023-08-22 18:24:04: case.submit success case.run:2792344.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2792345.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-22 19:41:57: case.run starting 
+ ---------------------------------------------------
+2023-08-22 19:42:10: model execution starting 
+ ---------------------------------------------------
+2023-08-22 22:05:30: model execution success 
+ ---------------------------------------------------
+2023-08-22 22:05:30: case.run error 
+ERROR: RUN FAIL: Command 'mpiexec_mpt -p "%g:"  -np 2556  omplace -tm open64  /glade/scratch/djk2120/TRENDY2023_f09_S1/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /glade/scratch/djk2120/TRENDY2023_f09_S1/run/cesm.log.2792344.chadmin1.ib0.cheyenne.ucar.edu.230822-194157
+ ---------------------------------------------------
+2023-08-23 09:51:41: case.submit starting 
+ ---------------------------------------------------
+2023-08-23 09:52:39: case.submit success case.run:2802036.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2802039.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-23 12:18:51: case.run starting 
+ ---------------------------------------------------
+2023-08-23 12:19:00: model execution starting 
+ ---------------------------------------------------
+2023-08-23 21:04:09: model execution success 
+ ---------------------------------------------------
+2023-08-23 21:04:09: case.run success 
+ ---------------------------------------------------
+2023-08-23 21:04:39: st_archive starting 
+ ---------------------------------------------------
+2023-08-23 21:04:49: st_archive success 
+ ---------------------------------------------------

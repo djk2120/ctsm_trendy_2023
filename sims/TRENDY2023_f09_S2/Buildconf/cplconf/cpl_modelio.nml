@@ -1,0 +1,13 @@
+&modelio
+  diri = "/glade/scratch/djk2120/TRENDY2023_f09_S2/bld/cpl"
+  diro = "/glade/scratch/djk2120/TRENDY2023_f09_S2/run"
+  logfile = "cpl.log.230824-094459"
+/
+&pio_inparm
+  pio_netcdf_format = "64bit_offset"
+  pio_numiotasks = -99
+  pio_rearranger = 1
+  pio_root = 1
+  pio_stride = 36
+  pio_typename = "pnetcdf"
+/
