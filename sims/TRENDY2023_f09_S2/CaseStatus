@@ -73,3 +73,11 @@ Checking status of externals: clm, fates, ptclm, cism, source_cism, rtm, mosart,
  ---------------------------------------------------
 2023-08-24 10:16:08: case.submit success case.run:2828009.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2828011.chadmin1.ib0.cheyenne.ucar.edu
  ---------------------------------------------------
+2023-08-24 10:25:53: case.submit starting 
+ ---------------------------------------------------
+2023-08-24 10:26:33: case.submit success case.run:2828126.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2828133.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2023-08-24 11:00:09: case.run starting 
+ ---------------------------------------------------
+2023-08-24 11:00:23: model execution starting 
+ ---------------------------------------------------

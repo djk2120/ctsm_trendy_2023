@@ -1,0 +1,9 @@
+Submitting command to PBS using account P93300041:
+    ./S3_part1.sh
+
+Requested custom PBS options:
+    -A P93300041 
+
+Waiting for job 2835408.chadmin1.ib0.cheyenne.ucar.edu to start ... 
+
+

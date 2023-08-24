@@ -1,3 +1,7 @@
+jobname: TRENDY2023_f09_S2_part1
+thiscase: /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S2
+setup: none
+status: queued
 ---------------------------------------
 RUNNING setup script:
 none none /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S2
@@ -18,7 +22,7 @@ copying /glade/scratch/djk2120/archive/TRENDY2023_f09_spinPostAD/rest/0400-01-01
 Copy rpointer /glade/scratch/djk2120/archive/TRENDY2023_f09_spinPostAD/rest/0400-01-01-00000/rpointer.drv
 copying /glade/scratch/djk2120/archive/TRENDY2023_f09_spinPostAD/rest/0400-01-01-00000/rpointer.drv -> /glade/scratch/djk2120/TRENDY2023_f09_S2/run
 Creating component namelists
-  2023-08-24 10:15:59 atm
+  2023-08-24 10:25:53 atm
    Calling /glade/work/djk2120/trendy2022/cime/src/components/data_comps/datm/cime_config/buildnml
 copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S2/user_datm.streams.txt.CLMCRUNCEPv7.Solar -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S2/Buildconf/datmconf/datm.streams.txt.CLMCRUNCEPv7.Solar
 copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S2/user_datm.streams.txt.CLMCRUNCEPv7.Precip -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S2/Buildconf/datmconf/datm.streams.txt.CLMCRUNCEPv7.Precip
@@ -31,23 +35,23 @@ copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S2/Buildconf/
 copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S2/Buildconf/datmconf/datm.streams.txt.co2tseries.20tr -> /glade/scratch/djk2120/TRENDY2023_f09_S2/run
 copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S2/Buildconf/datmconf/datm.streams.txt.topo.observed -> /glade/scratch/djk2120/TRENDY2023_f09_S2/run
 copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S2/Buildconf/datmconf/datm.streams.txt.CLMCRUNCEPv7.TPQW -> /glade/scratch/djk2120/TRENDY2023_f09_S2/run
-  2023-08-24 10:15:59 lnd
+  2023-08-24 10:25:53 lnd
    Calling /glade/work/djk2120/trendy2022/cime_config/buildnml
-  2023-08-24 10:15:59 ice
+  2023-08-24 10:25:54 ice
    Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/sice/cime_config/buildnml
-  2023-08-24 10:15:59 ocn
+  2023-08-24 10:25:54 ocn
    Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/socn/cime_config/buildnml
-  2023-08-24 10:15:59 rof
+  2023-08-24 10:25:54 rof
    Calling /glade/work/djk2120/trendy2022/components/mosart//cime_config/buildnml
-  2023-08-24 10:15:59 glc
+  2023-08-24 10:25:54 glc
    Running /glade/work/djk2120/trendy2022/components/cism//cime_config/buildnml 
-  2023-08-24 10:16:03 wav
+  2023-08-24 10:25:57 wav
    Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/swav/cime_config/buildnml
-  2023-08-24 10:16:03 iac
+  2023-08-24 10:25:57 iac
    Running /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/siac/cime_config/buildnml 
-  2023-08-24 10:16:03 esp
+  2023-08-24 10:25:57 esp
    Calling /glade/work/djk2120/trendy2022/cime/src/components/stub_comps/sesp/cime_config/buildnml
-  2023-08-24 10:16:03 cpl
+  2023-08-24 10:25:57 cpl
    Calling /glade/work/djk2120/trendy2022/cime/src/drivers/mct/cime_config/buildnml
 copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S2/Buildconf/cplconf/drv_in -> /glade/scratch/djk2120/TRENDY2023_f09_S2/run
 copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S2/CaseDocs/drv_flds_in -> /glade/scratch/djk2120/TRENDY2023_f09_S2/run
@@ -110,13 +114,19 @@ Check case OK
 submit_jobs case.run
 Submit job case.run
 Submitting job script qsub -q regular -l walltime=12:00:00 -A P93300041 -v ARGS_FOR_SCRIPT='--completion-sets-continue-run' .case.run
-Submitted job id is 2828009.chadmin1.ib0.cheyenne.ucar.edu
+Submitted job id is 2828126.chadmin1.ib0.cheyenne.ucar.edu
 Submit job case.st_archive
-Submitting job script qsub -q regular -l walltime=12:00:00 -A P93300041  -W depend=afterok:2828009.chadmin1.ib0.cheyenne.ucar.edu  case.st_archive
-Submitted job id is 2828011.chadmin1.ib0.cheyenne.ucar.edu
-Submitted job case.run with id 2828009.chadmin1.ib0.cheyenne.ucar.edu
-Submitted job case.st_archive with id 2828011.chadmin1.ib0.cheyenne.ucar.edu
+Submitting job script qsub -q regular -l walltime=12:00:00 -A P93300041  -W depend=afterok:2828126.chadmin1.ib0.cheyenne.ucar.edu  case.st_archive
+Submitted job id is 2828133.chadmin1.ib0.cheyenne.ucar.edu
+Submitted job case.run with id 2828126.chadmin1.ib0.cheyenne.ucar.edu
+Submitted job case.st_archive with id 2828133.chadmin1.ib0.cheyenne.ucar.edu
 /glade/u/home/djk2120/ctsm_trendy_2023/scripts/S2
-/glade/u/home/djk2120/tether/tether.sh: line 17: [: =: unary operator expected
-/glade/u/home/djk2120/tether/tether.sh: line 39: [: =: unary operator expected
-2828012.chadmin1.ib0.cheyenne.ucar.edu
+jobname: TRENDY2023_f09_S2_part2
+thiscase: /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S2
+setup: /glade/u/home/djk2120/ctsm_trendy_2023/scripts/S2/S2_part2.sh
+status: waiting
+jobname: TRENDY2023_f09_S2_part3
+thiscase: /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S2
+setup: /glade/u/home/djk2120/ctsm_trendy_2023/scripts/S2/S2_part3.sh
+status: waiting
+2828136.chadmin1.ib0.cheyenne.ucar.edu

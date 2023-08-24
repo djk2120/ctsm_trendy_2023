@@ -1,2 +1,3 @@
 dask-worker*
 ipynb_check*
+.log

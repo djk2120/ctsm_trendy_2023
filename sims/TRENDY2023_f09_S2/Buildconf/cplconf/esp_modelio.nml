@@ -1,7 +1,7 @@
 &modelio
   diri = "/glade/scratch/djk2120/TRENDY2023_f09_S2/bld/esp"
   diro = "/glade/scratch/djk2120/TRENDY2023_f09_S2/run"
-  logfile = "esp.log.230824-101603"
+  logfile = "esp.log.2828126.chadmin1.ib0.cheyenne.ucar.edu.230824-110009"
 /
 &pio_inparm
   pio_netcdf_format = ""
