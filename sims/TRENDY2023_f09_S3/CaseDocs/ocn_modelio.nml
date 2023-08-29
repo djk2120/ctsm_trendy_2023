@@ -1,0 +1,13 @@
+&modelio
+  diri = "/glade/scratch/djk2120/TRENDY2023_f09_S3/bld/ocn"
+  diro = "/glade/scratch/djk2120/TRENDY2023_f09_S3/run"
+  logfile = "ocn.log.2932649.chadmin1.ib0.cheyenne.ucar.edu.230829-014921"
+/
+&pio_inparm
+  pio_netcdf_format = "64bit_offset"
+  pio_numiotasks = -99
+  pio_rearranger = 1
+  pio_root = 1
+  pio_stride = 36
+  pio_typename = "pnetcdf"
+/

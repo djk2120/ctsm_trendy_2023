@@ -129,7 +129,7 @@
       Sets the run length along with STOP_N and STOP_DATE
     </desc>
     </entry>
-    <entry id="STOP_N" value="75">
+    <entry id="STOP_N" value="61">
       <type>integer</type>
       <desc>
       Provides a numerical count for $STOP_OPTION.
@@ -220,7 +220,7 @@
       ignored.  default: false
     </desc>
     </entry>
-    <entry id="CONTINUE_RUN" value="FALSE">
+    <entry id="CONTINUE_RUN" value="TRUE">
       <type>logical</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>
@@ -253,7 +253,7 @@
       timing tests.
     </desc>
     </entry>
-    <entry id="JOB_IDS" value="case.run:2828126.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2828133.chadmin1.ib0.cheyenne.ucar.edu">
+    <entry id="JOB_IDS" value="case.run:2869523.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:2869524.chadmin1.ib0.cheyenne.ucar.edu">
       <type>char</type>
       <desc>List of job ids for most recent case.submit</desc>
     </entry>
@@ -1418,7 +1418,7 @@
       <valid_values/>
       <desc>starting year to loop data over</desc>
     </entry>
-    <entry id="DATM_CLMNCEP_YR_END" value="1920">
+    <entry id="DATM_CLMNCEP_YR_END" value="2022">
       <type>integer</type>
       <valid_values/>
       <desc>ending year to loop data over</desc>

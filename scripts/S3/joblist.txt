@@ -1,3 +1,3 @@
-TRENDY2023_f09_S3_part1,/glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S3,none,queued
-TRENDY2023_f09_S3_part2,/glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S3,/glade/u/home/djk2120/ctsm_trendy_2023/scripts/S3/S3_part2.sh,waiting
-TRENDY2023_f09_S3_part3,/glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S3,/glade/u/home/djk2120/ctsm_trendy_2023/scripts/S3/S3_part3.sh,waiting
+TRENDY2023_f09_S3_part1,/glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S3,none,submitted
+TRENDY2023_f09_S3_part2,/glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S3,/glade/u/home/djk2120/ctsm_trendy_2023/scripts/S3/S3_part2.sh,submitted
+TRENDY2023_f09_S3_part3,/glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S3,/glade/u/home/djk2120/ctsm_trendy_2023/scripts/S3/S3_part3.sh,queued

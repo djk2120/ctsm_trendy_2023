@@ -151,3 +151,54 @@ Building gptl with output to file /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/g
    Calling /glade/work/djk2120/trendy2022/cime/src/build_scripts/buildlib.gptl
 Building mct with output to file /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/mct.bldlog.230825-070524
    Calling /glade/work/djk2120/trendy2022/cime/src/build_scripts/buildlib.mct
+Building pio with output to file /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/pio.bldlog.230825-070524
+   Calling /glade/work/djk2120/trendy2022/cime/src/build_scripts/buildlib.pio
+Component pio build complete with 2 warnings
+Building csm_share with output to file /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/csm_share.bldlog.230825-070524
+   Calling /glade/work/djk2120/trendy2022/cime/src/build_scripts/buildlib.csm_share
+Component csm_share build complete with 20 warnings
+         - Building clm library 
+Building lnd with output to /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/lnd.bldlog.230825-070524
+Component lnd build complete with 12 warnings
+copying /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/intel/mpt/nodebug/nothreads/mct/mct/noesmf/clm/obj/lnd_comp_mct.mod -> /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/intel/mpt/nodebug/nothreads/mct/mct/noesmf/include
+clm built in 119.978395 seconds
+         - Building atm Library 
+Building atm with output to /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/atm.bldlog.230825-070524
+         - Building ice Library 
+Building ice with output to /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/ice.bldlog.230825-070524
+         - Building ocn Library 
+Building ocn with output to /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/ocn.bldlog.230825-070524
+         - Building rof Library 
+Building rof with output to /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/rof.bldlog.230825-070524
+         - Building glc Library 
+Building glc with output to /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/glc.bldlog.230825-070524
+         - Building wav Library 
+Building wav with output to /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/wav.bldlog.230825-070524
+         - Building iac Library 
+Building iac with output to /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/iac.bldlog.230825-070524
+         - Building esp Library 
+Building esp with output to /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/esp.bldlog.230825-070524
+copying /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/ocn/obj/ocn_comp_mct.mod -> /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/lib/include
+socn built in 1.347946 seconds
+copying /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/wav/obj/wav_comp_mct.mod -> /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/lib/include
+swav built in 1.344283 seconds
+copying /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/ice/obj/ice_comp_mct.mod -> /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/lib/include
+sice built in 1.365958 seconds
+copying /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/esp/obj/esp_comp_mct.mod -> /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/lib/include
+sesp built in 1.348542 seconds
+copying /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/iac/obj/iac_comp_mct.mod -> /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/lib/include
+siac built in 1.358888 seconds
+copying /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/atm/obj/datm_comp_mod.mod -> /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/lib/include
+copying /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/atm/obj/atm_comp_mct.mod -> /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/lib/include
+datm built in 3.773851 seconds
+copying /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/rof/obj/rof_comp_mct.mod -> /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/lib/include
+mosart built in 23.892460 seconds
+Component glc build complete with 3 warnings
+copying /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/glc/obj/glc_comp_mct.mod -> /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/lib/include
+cism built in 195.482851 seconds
+Building cesm with output to /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/cesm.bldlog.230825-070524 
+copying /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/cesm.exe -> /glade/scratch/djk2120/TRENDY2023_f09_S3/bld/cesm.exe.230825-070524
+copying /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S3/env_build.xml -> /glade/u/home/djk2120/ctsm_trendy_2023/sims/TRENDY2023_f09_S3/LockedFiles
+Time spent not building: 5.372023 sec
+Time spent building: 466.557456 sec
+MODEL BUILD HAS FINISHED SUCCESSFULLY
