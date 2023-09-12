@@ -5,7 +5,7 @@
 #PBS -A P93300641
 #PBS -j oe
 #PBS -k eod
-#PBS -l select=1:ncpus=1
+#PBS -l select=1:ncpus=1:mem=14GB
 
 source ~/.bashrc
 conda activate ppe-py

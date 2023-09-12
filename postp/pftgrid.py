@@ -9,7 +9,7 @@ sim=sys.argv[1]
 pft=int(sys.argv[2])
 
 d0='/glade/scratch/djk2120/archive/TRENDY2023_f09_{}/lnd/hist/' #sim will replace {}
-dout='/glade/campaign/cgd/tss/projects/TRENDY/v12/S0/lnd/proc/trendy/'
+dout='/glade/campaign/cgd/tss/projects/TRENDY/v12/'+sim+'/lnd/proc/trendy/'
 logs='/glade/scratch/djk2120/logs/'
 dvs=['GPP','NPP','AGNPP','TOTVEGC','TLAI',
      'FSH','TV','FCTR','FGEV','pfts1d_wtgcell']
