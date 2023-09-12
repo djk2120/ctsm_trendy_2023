@@ -6,7 +6,7 @@ from datetime import date
 import os
 
 sim=sys.argv[1]
-pft=sys.argv[2]
+pft=int(sys.argv[2])
 
 d0='/glade/scratch/djk2120/archive/TRENDY2023_f09_{}/lnd/hist/' #sim will replace {}
 dout='/glade/campaign/cgd/tss/projects/TRENDY/v12/S0/lnd/proc/trendy/'
